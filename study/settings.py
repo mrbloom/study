@@ -25,7 +25,7 @@ SECRET_KEY = 'f^u@9&k7*v1a8rb-!3u7e7fepqz6u*cbriegtb&n^bunc#)b)+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['andriyaka.pythonanywhere.com']
+ALLOWED_HOSTS = ['*','andriyaka.pythonanywhere.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'univer.apps.UniverConfig',
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
