@@ -18,3 +18,10 @@ class Student(CommonInfo):
     avg_mark = models.PositiveSmallIntegerField(validators=[MaxValueValidator])
     # quiz = models.ForeignKey(Quiz,on_delete=models.CASCADE)
 
+class Group(models.Model):
+    name = models.CharField(max_length=50)
+    pass
+
+class Classroom(models.Model):
+    name = models.CharField(max_length=50)
+    pass
