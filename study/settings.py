@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'univer.apps.UniverConfig',
     'polls.apps.PollsConfig',
+    'univer.apps.UniverConfig',
 ]
 
 MIDDLEWARE = [
