@@ -6,5 +6,5 @@ def index(request):
     data = {'hello': 'world',
             'title': 'My Univer',
             'text': 'variable text value'}
-    return render(request, 'tests/index.html', data)
+    return render(request, 'university/index.html', data)
     # return HttpResponse("out")

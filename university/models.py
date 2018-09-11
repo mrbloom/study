@@ -2,16 +2,16 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 
 # from phonenumber_field.modelfields import PhoneNumberField
-
-class Image(models.Model):
-    image = models.ImageField()
-    alt_text = models.CharField(max_length=100)
+#
+# class Image(models.Model):
+#     image = models.ImageField()
+#     alt_text = models.CharField(max_length=100)
 
 class CommonInfo(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
-    phone = PhoneNumberField(blank=True)
+    # phone = PhoneNumberField(blank=True)
 
     class Meta:
         abstract = True

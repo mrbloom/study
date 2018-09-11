@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import Teacher, Student, Image,  Question, Choice, Quiz, Class
+from .models import Teacher, Student, Question, Choice, Quiz, Class  #Image,
 
-@admin.register(Image)
-class ImageAdmin(admin.ModelAdmin):
-    pass
+# @admin.register(Image)
+# class ImageAdmin(admin.ModelAdmin):
+#     pass
 
 @admin.register(Teacher)
 class TeacherAdmin(admin.ModelAdmin):
